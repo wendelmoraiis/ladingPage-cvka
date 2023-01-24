@@ -1,0 +1,153 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins';
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#36394E;
+    padding: 28px;
+}
+
+.logo{
+    width: 165px;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+}
+
+.cabecalho nav li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 25px;
+    gap: 10px;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.cabecalho nav li a::after{
+    content: " ";
+    width: 0%;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.cabecalho nav li a:hover::after{
+    width: 100%;
+}
+
+.cabecalho.navigation-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 50px;
+    gap: 12px;
+}
+
+.button-login {
+    width: 80px;
+    height: 36px;
+    background-color: #5f6cde;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    background-color: #7d88f0;
+}
+
+
+.button-sigin {
+    width: 80px;
+    height: 36px;
+    background-color: #FF6476;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-sigin:hover {
+    background-color: #f0919c;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 30px 30px;
+}
+
+.container-principal {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-ant-tittle {
+    font-family: 'Poppins';
+    color: #FF6476;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container-tittle {
+    font-family: 'Poppins';
+    color: #000;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.container-sub-tittle {
+    font-family: 'Poppins';
+    color: #797A87;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-button {
+    font-family: 'Poppins';
+    width: 203px;
+    height: 51px;
+    background-color: #FF6476;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container-button:hover {
+    background-color: #36394E
+}
+
+.img {
+    height: 620px;
+    width: 950px;
+}
